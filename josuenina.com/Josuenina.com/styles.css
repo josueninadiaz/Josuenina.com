@@ -1,0 +1,20 @@
+/* Custom Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Hero Section Background */
+.bg-hero-pattern {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+}
